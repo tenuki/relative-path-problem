@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Demo rutas relativas</title>
+  <style>
+    body { font-family: sans-serif; }
+    img { max-width: 300px; border: 2px solid red; }
+  </style>
+</head>
+<body>
+
+<h1>Demo rutas relativas</h1>
+
+<p>
+  Esta imagen usa una ruta relativa:
+</p>
+
+<pre>&lt;img src="img.jpg"&gt;</pre>
+
+<img src="img.jpg" alt="demo">
+
+<hr>
+
+<p>
+  Probá abrir esta misma página como:
+</p>
+
+<ul>
+  <li><code>/demo/</code> → ✅ funciona</li>
+  <li><code>/demo</code> → ❌ rompe</li>
+</ul>
+
+<p>
+  Mirá en DevTools → Network qué URL intenta cargar el navegador.
+</p>
+
+</body>
+</html>
